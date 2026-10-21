@@ -1,0 +1,73 @@
+clear
+ls
+clear
+./build.sh 
+clear
+./save-config.sh 
+clear
+make -C buildroot menuconfig
+./save-config.sh 
+clear
+ls
+clear
+./save-config.sh 
+exit
+clear
+./build
+clear
+./build.sh 
+clear
+./save-config.sh 
+make -C buildroot menuconfig
+clear
+make -C buildroot menuconfig
+clear
+make -C buildroot menuconfig
+clear
+./save-config.sh 
+clear
+ls
+clear
+./build.sh 
+clear
+./runqemu.sh 
+clear
+make -C buildroot menuconfig
+clear
+./save-config.sh 
+clear
+./build.sh 
+clear
+./save-config.sh 
+clear
+make -C buildroot menuconfig
+clear
+./save-config.sh 
+clear
+./build.sh 
+clear
+ls
+clear
+ls
+clear
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+clear
+./runqemu.sh 
+clear
+ls
+clear
+exit
+clear
+./runqemu.sh 
+clear
+exit
