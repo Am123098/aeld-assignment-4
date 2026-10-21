@@ -18,7 +18,7 @@ jobs:
             env:
               FORCE_UNSAFE_CONFIGURE: 1
             run: ./full-test.sh
-          - name: Cleanup
-            if: always()
-            run: |
-              ssh-add -D
+          # - name: Cleanup
+          #   if: always()
+          #   run: |
+          #     ssh-add -D
